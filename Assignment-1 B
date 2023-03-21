@@ -1,0 +1,2 @@
+name = "Edyoda" [::-1]
+print(name)
