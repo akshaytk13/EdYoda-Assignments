@@ -1,0 +1,29 @@
+class student:
+    
+    def __init__(self):
+        self.__name = ""
+        self.__rollNumber = ""
+    
+    def getName(self):
+        return self.__name
+    
+    def setName(self, name):
+        self.__name = name
+    
+    def getRollNumber(self):
+        return self.__rollNumber
+    
+    def setRollNumber(self, rollNumber):
+        self.__rollNumber = rollNumber
+
+
+student = student()
+
+name = input("Enter student name: ")
+rollNumber = input("Enter student roll number: ")
+
+student.setName(name)
+student.setRollNumber(rollNumber)
+
+print("Student name:", student.getName())
+print("Student roll number:", student.getRollNumber())
